@@ -18,7 +18,7 @@ class Main {
         do{
             clearConsole();
             showMenu();
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione la opción: ");
             choice = scanner.nextInt();
             handleUserChoice(choice);
         }while(choice != 7);
@@ -57,6 +57,7 @@ class Main {
     }
     private static void showMenu() {
         System.out.println("-------- Administrador Mi Tienda de Barrio --------");
+        System.out.println("-------- Menu De Opciones -------");
         System.out.println("1. Ingresar Usuario");
         System.out.println("2. Agregar Producto");
         System.out.println("3. Eliminar Producto");
